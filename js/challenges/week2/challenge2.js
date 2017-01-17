@@ -8,7 +8,7 @@ console.log('-------------------------');
 console.log('-------------------------');
 console.log('Task 1 - Create a person');
 console.log('-------------------------');
-// Task 1: Can you create a new varaible named product.
+// Task 1: Can you create a new variable named product.
 // It should have the following properties
 // name - Unlimited Infinity
 // type - an array containing 'unlimited' and 'fibre'
