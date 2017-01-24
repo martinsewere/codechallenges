@@ -1,8 +1,8 @@
-/* Week 2 - Code Challenge 2
+/* Week 3 - Code Challenge 2
 * Aim: An introduction to objects
 */
 console.log('-------------------------');
-console.log('Week 2 - Challenge 2 has been included!');
+console.log('Week 3 - Challenge 2 has been included!');
 console.log('-------------------------');
 
 var staff = [

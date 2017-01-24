@@ -1,4 +1,4 @@
-/* Week 2 - Code Challenge 3
+/* Week 3 - Code Challenge 3
 * Aim: An introduction to if statements
 */
 console.log('-------------------------');
