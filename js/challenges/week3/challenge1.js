@@ -32,22 +32,24 @@ console.log('-------------------------');
 * Below is a variable called animals. These are animals in a vet.
 * animals is an array meaning you can access items like such: animals[0] (returns the first animal)
 */
-var animals = [{
-                name: 'Charlie',
-                type: 'Cat'
-              },
-              {
-                name: 'Ant',
-                type: 'Lion'
-              },
-              {
-                name: 'Phil',
-                type: 'Developer'
-              },
-              {
-                name: 'Lucy',
-                type: 'Eagle'
-              }];
+var animals = [
+  {
+  name: 'Charlie',
+  type: 'Cat'
+  },
+  {
+    name: 'Ant',
+    type: 'Lion'
+  },
+  {
+    name: 'Phil',
+    type: 'Developer'
+  },
+  {
+    name: 'Lucy',
+    type: 'Eagle'
+  }
+];
 
 // Can you console out the number of animals?
 // Hint: in an array you can use arrayName.length to find the length
