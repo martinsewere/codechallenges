@@ -33,4 +33,4 @@ function initConsole(useDefault) {
  });
 
 /* First run initialise the on screen console */
-initConsole(false);
+initConsole(true);
