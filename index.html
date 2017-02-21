@@ -3,44 +3,36 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Code Challenge - Week 1</title>
+  <title>My To Do List</title>
   <!-- Here we include the Styles for the page. Bootstrap is a thirdparty
        style library. main.css are our own styles -->
   <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap-toggle.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    <div class="container">
-      <div class="page-header">
-        <h1>Code Challenges <small>Week 1</small></h1>
-      </div>
-      <div>
-        <div class="row">
-          <div class="col-md-6">
-            <h3>Console Output</h3>
+  <div class="container">
+    <div class="page-header">
+      <h1>My To Do List</h1>
+    </div>
+      <div class="row form-entry">
+        <form class="form">
+          <div class="col-xs-6">
+            <label class="sr-only" for="todo">What do I need to do?</label>
+            <input type="text" class="form-control" id="todo" placeholder="What do I need to do?">
           </div>
-          <div class="col-md-6 toggle-console">
-            <span>Use on screen console</span>
-            <input id="toggle-console" type="checkbox" data-toggle="toggle">
+          <div class="col-xs-6">
+            <button type="submit" class="btn btn-primary" id="add-btn">Add [+]</button>
           </div>
-        </div>
-        <div class="form-group">
-          <textarea class="form-control" id="console" readonly disabled></textarea>
-        </div>
-        <button type="button" class="btn btn-default" onclick="clearConsole()">Clear Console</button>
+        </form>
       </div>
-  </div>
-
-  <!-- This is how you include an external file into your HTML file-->
-  <!-- Scripts to make the page work. Do not touch -->
-  <script type="text/javascript" src="js/jquery.js"></script>
-  <script type="text/javascript" src="js/console-overwrite.js"></script>
-  <script type="text/javascript" src="js/bootstrap-toggle.js"></script>
+      <div class="row todo-list-container">
+        <ul class="list-group col-xs-6" id="todo-list">
+        </ul>
+      </div>
+    </div>
 
   <!-- Your scripts will go here -->
-  <script type="text/javascript" src="js/challenges/week5/challenge1.js"></script>
-
+  <script type="text/javascript" src="js/todolist.js"></script>
 
 </body>
 </html>
